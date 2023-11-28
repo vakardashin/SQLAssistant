@@ -1,0 +1,6 @@
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\bin\Debug\SQLAssistant22MsSQL.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\bin\Debug\SQLAssistant22MsSQL.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\obj\Debug\SQLAssistant22MsSQL.csproj.AssemblyReference.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\obj\Debug\SQLAssistant22MsSQL.csproj.CoreCompileInputs.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\obj\Debug\SQLAssistant22MsSQL.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant22MsSQL\obj\Debug\SQLAssistant22MsSQL.pdb

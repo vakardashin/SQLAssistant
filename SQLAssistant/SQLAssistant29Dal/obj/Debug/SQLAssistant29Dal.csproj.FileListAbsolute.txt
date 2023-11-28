@@ -1,0 +1,15 @@
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant29Dal.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant29Dal.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant10Common.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant21MySql.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant22MsSQL.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant23SqLite.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant10Common.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant21MySql.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant22MsSQL.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant23SqLite.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\obj\Debug\SQLAssistant29Dal.csproj.AssemblyReference.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\obj\Debug\SQLAssistant29Dal.csproj.CoreCompileInputs.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\obj\Debug\SQLAssistant29Dal.csproj.CopyComplete
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\obj\Debug\SQLAssistant29Dal.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\obj\Debug\SQLAssistant29Dal.pdb

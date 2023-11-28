@@ -1,0 +1,6 @@
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\bin\Debug\SQLAssistant21MySql.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\bin\Debug\SQLAssistant21MySql.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\obj\Debug\SQLAssistant21MySql.csproj.AssemblyReference.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\obj\Debug\SQLAssistant21MySql.csproj.CoreCompileInputs.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\obj\Debug\SQLAssistant21MySql.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant21MySql\obj\Debug\SQLAssistant21MySql.pdb

@@ -1,0 +1,15 @@
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant.exe.config
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant.exe
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant10Common.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant29Dal.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant10Common.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant29Dal.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.csproj.AssemblyReference.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.FrmMain.resources
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.Properties.Resources.resources
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.csproj.GenerateResource.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.csproj.CoreCompileInputs.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.csproj.CopyComplete
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.exe
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\obj\Debug\SQLAssistant.pdb

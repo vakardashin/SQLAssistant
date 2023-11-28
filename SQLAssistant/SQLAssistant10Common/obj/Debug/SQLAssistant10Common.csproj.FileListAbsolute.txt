@@ -1,0 +1,6 @@
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\bin\Debug\SQLAssistant10Common.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\bin\Debug\SQLAssistant10Common.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.csproj.AssemblyReference.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.csproj.CoreCompileInputs.cache
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.pdb
