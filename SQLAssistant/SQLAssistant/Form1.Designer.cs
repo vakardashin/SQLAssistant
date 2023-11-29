@@ -35,32 +35,35 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(141, 12);
+            this.comboBox1.Location = new System.Drawing.Point(118, 12);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(512, 28);
+            this.comboBox1.Size = new System.Drawing.Size(580, 28);
             this.comboBox1.TabIndex = 0;
             // 
             // TxtSql
             // 
-            this.TxtSql.Location = new System.Drawing.Point(12, 46);
+            this.TxtSql.Location = new System.Drawing.Point(12, 65);
             this.TxtSql.Multiline = true;
             this.TxtSql.Name = "TxtSql";
             this.TxtSql.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtSql.Size = new System.Drawing.Size(641, 184);
+            this.TxtSql.Size = new System.Drawing.Size(686, 184);
             this.TxtSql.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 266);
+            this.textBox2.Location = new System.Drawing.Point(12, 287);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(832, 183);
+            this.textBox2.Size = new System.Drawing.Size(832, 243);
             this.textBox2.TabIndex = 2;
             // 
             // button1
@@ -99,11 +102,41 @@
             this.button4.Text = "Execute File";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Connection";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 264);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Result";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 42);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 20);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "SQL";
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 461);
+            this.ClientSize = new System.Drawing.Size(857, 552);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -112,7 +145,7 @@
             this.Controls.Add(this.TxtSql);
             this.Controls.Add(this.comboBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmMain";
             this.Text = "SQLAssistant";
             this.ResumeLayout(false);
@@ -129,6 +162,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
