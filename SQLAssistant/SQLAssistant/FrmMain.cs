@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ScanDal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,9 +18,10 @@ namespace SQLAssistant
             InitializeComponent();
         }
 
-        private void FrmMain_Load(object sender, EventArgs e)
+        private void BtnTest_Click(object sender, EventArgs e)
         {
-
+            string s = DbTest.DoDbTest();
+            MessageBox.Show(s);
         }
     }
 }
