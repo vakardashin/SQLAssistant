@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SQLAssistant10Common
 {
-    public class Class1
+    public enum DbServerType
     {
+        MySql,
+        MsSql,
+        SqLite,
     }
 }
