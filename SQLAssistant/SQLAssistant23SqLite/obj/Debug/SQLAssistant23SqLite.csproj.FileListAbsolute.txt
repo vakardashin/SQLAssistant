@@ -4,3 +4,6 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant23SqLite.csproj.CoreCompileInputs.cache
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant23SqLite.dll
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant23SqLite.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\System.Data.SQLite.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\System.Data.SQLite.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant23SqLite.csproj.CopyComplete

@@ -31,3 +31,5 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Diagnost
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Buffers.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Numerics.Vectors.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Data.SQLite.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Data.SQLite.xml
