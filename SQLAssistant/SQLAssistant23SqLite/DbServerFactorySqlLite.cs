@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 
+
 namespace ScanDal
 {
     public class DbServerFactorySqlLite
@@ -14,7 +15,7 @@ namespace ScanDal
         public static IDbConnection GetDbConnection()
         {
             // SQLite строка подключения к БД
-            string strCnn = @"Data Source=""C:\Work\C#\WinDbTestApp\SqLite\dbtest.db"";Version=3;";
+            string strCnn = @"Data Source=""C:\Work\C#\WinDbTestApp\SQLite\dbtest.db"";Version=3;";
             SQLiteConnection cnn = new SQLiteConnection(strCnn);
             return cnn;
         }

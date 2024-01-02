@@ -33,3 +33,4 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Buffers.
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Numerics.Vectors.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Data.SQLite.dll
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\System.Data.SQLite.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant29Dal\bin\Debug\SQLAssistant23SqLite.dll.config

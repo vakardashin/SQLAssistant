@@ -7,3 +7,8 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\System.Data.SQLite.dll
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\System.Data.SQLite.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\obj\Debug\SQLAssistant23SqLite.csproj.CopyComplete
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\SQLAssistant23SqLite.dll.config
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\EntityFramework.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\EntityFramework.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant23SqLite\bin\Debug\EntityFramework.SqlServer.xml
