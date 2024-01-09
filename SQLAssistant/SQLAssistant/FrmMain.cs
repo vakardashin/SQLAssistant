@@ -32,7 +32,8 @@ namespace SQLAssistant
 
         private void BtnTest_Click(object sender, EventArgs e)
         {
-            string s = DbTest.DoDbTest();
+            var config = Servers[CboDbServers.SelectedIndex];
+            string s = DbTest.DoDbTest(config);
             MessageBox.Show(s);
         }
     }

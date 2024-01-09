@@ -15,7 +15,7 @@ namespace SQLAssistant10Common
             {
                 ServerName = "MySQL - localhost - arnion",
                 ServerType = DbServerType.MySql,
-                ConnectionString = "Server=localhost;User ID = root;Database=arnion;AllowZeroData"
+                ConnectionString = "Server=localhost;User ID = root;Password=root;Database=arnion" //AllowZeroData"
             });
             lst.Add(new DbServerConfig()
             {
