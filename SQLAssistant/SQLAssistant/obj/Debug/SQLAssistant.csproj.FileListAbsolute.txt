@@ -33,3 +33,10 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Diagnostics.D
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Buffers.xml
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Numerics.Vectors.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant22MsSQL.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant23SqLite.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Data.SQLite.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant22MsSQL.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant23SqLite.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant23SqLite.dll.config
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Data.SQLite.xml

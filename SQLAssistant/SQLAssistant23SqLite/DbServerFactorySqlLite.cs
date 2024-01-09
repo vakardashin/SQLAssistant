@@ -12,11 +12,11 @@ namespace ScanDal
 {
     public class DbServerFactorySqlLite
     {
-        public static IDbConnection GetDbConnection()
+        public static IDbConnection GetDbConnection(string connectionString)
         {
             // SQLite строка подключения к БД
-            string strCnn = @"Data Source=""C:\Work\C#\WinDbTestApp\SQLite\dbtest.db"";Version=3;";
-            SQLiteConnection cnn = new SQLiteConnection(strCnn);
+            // string strCnn = @"Data Source=""C:\Work\C#\WinDbTestApp\SQLite\dbtest.db"";Version=3;";
+            SQLiteConnection cnn = new SQLiteConnection(connectionString);
             return cnn;
         }
     }

@@ -10,11 +10,11 @@ namespace ScanDal
 {
     public class DbServerFactoryMsSql
     {
-        public static IDbConnection GetDbConnection()
+        public static IDbConnection GetDbConnection(string connectionString)
         {
             // MS SQL строка подключения к БД
-            string strCnn = "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true";
-            SqlConnection cnn = new SqlConnection(strCnn);
+            // string strCnn = "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true";
+            SqlConnection cnn = new SqlConnection(connectionString);
             return cnn;
         }
     }

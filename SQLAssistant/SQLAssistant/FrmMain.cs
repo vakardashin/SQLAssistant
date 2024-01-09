@@ -32,8 +32,18 @@ namespace SQLAssistant
 
         private void BtnTest_Click(object sender, EventArgs e)
         {
-            var config = Servers[CboDbServers.SelectedIndex];
-            string s = DbTest.DoDbTest(config);
+            string s = "";
+            try
+            {
+                var config = Servers[CboDbServers.SelectedIndex];
+                string s2 = DbTest.DoDbTest(config);
+                s = "Connection successful!";
+            }
+            catch (Exception ex)
+            {
+                s = ex.Message;
+            }
+           
             MessageBox.Show(s);
         }
     }
