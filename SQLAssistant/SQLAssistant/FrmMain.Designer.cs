@@ -30,9 +30,9 @@
         {
             this.CboDbServers = new System.Windows.Forms.ComboBox();
             this.TxtSql = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtResult = new System.Windows.Forms.TextBox();
             this.BtnTest = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnExecuteSql = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -59,14 +59,14 @@
             this.TxtSql.Size = new System.Drawing.Size(686, 184);
             this.TxtSql.TabIndex = 1;
             // 
-            // textBox2
+            // TxtResult
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 287);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(832, 243);
-            this.textBox2.TabIndex = 2;
+            this.TxtResult.Location = new System.Drawing.Point(12, 287);
+            this.TxtResult.Multiline = true;
+            this.TxtResult.Name = "TxtResult";
+            this.TxtResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtResult.Size = new System.Drawing.Size(832, 243);
+            this.TxtResult.TabIndex = 2;
             // 
             // BtnTest
             // 
@@ -78,14 +78,15 @@
             this.BtnTest.UseVisualStyleBackColor = true;
             this.BtnTest.Click += new System.EventHandler(this.BtnTest_Click);
             // 
-            // button2
+            // BtnExecuteSql
             // 
-            this.button2.Location = new System.Drawing.Point(717, 68);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 50);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Execute SQL";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnExecuteSql.Location = new System.Drawing.Point(717, 68);
+            this.BtnExecuteSql.Name = "BtnExecuteSql";
+            this.BtnExecuteSql.Size = new System.Drawing.Size(128, 50);
+            this.BtnExecuteSql.TabIndex = 4;
+            this.BtnExecuteSql.Text = "Execute SQL";
+            this.BtnExecuteSql.UseVisualStyleBackColor = true;
+            this.BtnExecuteSql.Click += new System.EventHandler(this.BtnExecuteSql_Click);
             // 
             // button3
             // 
@@ -142,9 +143,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BtnExecuteSql);
             this.Controls.Add(this.BtnTest);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TxtResult);
             this.Controls.Add(this.TxtSql);
             this.Controls.Add(this.CboDbServers);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -161,9 +162,9 @@
 
         private System.Windows.Forms.ComboBox CboDbServers;
         private System.Windows.Forms.TextBox TxtSql;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtResult;
         private System.Windows.Forms.Button BtnTest;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnExecuteSql;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;

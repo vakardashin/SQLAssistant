@@ -1,5 +1,6 @@
 ﻿using ScanDal;
 using SQLAssistant10Common;
+using SQLAssistant29Dal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -45,6 +46,22 @@ namespace SQLAssistant
             }
            
             MessageBox.Show(s);
+        }
+
+        private void BtnExecuteSql_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var config = Servers[CboDbServers.SelectedIndex];
+                var processor = new DbProcessor(config);
+                string sql = TxtSql.Text;
+                var output = processor.ExecuteSqlScalar(sql);
+                TxtResult.Text = output.ToString();
+            }
+            catch (Exception ex)
+            {
+                TxtResult.Text = ex.Message;
+            }
         }
     }
 }

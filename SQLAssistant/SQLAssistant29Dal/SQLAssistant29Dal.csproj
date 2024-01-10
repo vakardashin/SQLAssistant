@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbProcessor.cs" />
     <Compile Include="DbServerFactory.cs" />
     <Compile Include="DbTest.cs" />
+    <Compile Include="IDbProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
