@@ -63,7 +63,8 @@ namespace SQLAssistant
                 }
                 else
                 {
-                    TxtResult.Text = "Not select!";
+                    int i = processor.ExecuteSqlCommand(sql);
+                    TxtResult.Text = "Records processed: " + i.ToString();
                 }
                 
             }

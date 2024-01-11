@@ -53,5 +53,17 @@ namespace SQLAssistant29Dal
             }
             return mainList;
         }
+        public int ExecuteSqlCommand(string sql)
+        {
+            using (var cnn = DbServerFactory.GetDbConnection(Config))
+            {
+                var cmd = cnn.CreateCommand();
+                cmd.CommandText = sql;
+                cnn.Open();
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                return rowsAffected;
+            }
+        }
     }
 }
