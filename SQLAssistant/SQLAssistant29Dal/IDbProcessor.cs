@@ -9,5 +9,6 @@ namespace SQLAssistant29Dal
     public interface IDbProcessor
     {
         object ExecuteSqlScalar(string sql);
+        List<List<string>> ExecuteSqlSelect(string sql);
     }
 }

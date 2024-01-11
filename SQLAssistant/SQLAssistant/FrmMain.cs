@@ -55,8 +55,17 @@ namespace SQLAssistant
                 var config = Servers[CboDbServers.SelectedIndex];
                 var processor = new DbProcessor(config);
                 string sql = TxtSql.Text;
-                var output = processor.ExecuteSqlScalar(sql);
-                TxtResult.Text = output.ToString();
+                if (SQLAssistantHelper.DoSelect(sql))
+                {
+                    var lst = processor.ExecuteSqlSelect(sql);
+                    var output = SQLAssistantHelper.FormatResultsSimple(lst);
+                    TxtResult.Text = output;
+                }
+                else
+                {
+                    TxtResult.Text = "Not select!";
+                }
+                
             }
             catch (Exception ex)
             {

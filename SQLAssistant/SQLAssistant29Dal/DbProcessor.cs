@@ -26,5 +26,32 @@ namespace SQLAssistant29Dal
                 return result;
             }
         }
+        public List<List<string>> ExecuteSqlSelect(string sql)
+        { 
+            var mainList = new List<List<string>>();
+            using (var cnn = DbServerFactory.GetDbConnection(Config))
+            { 
+                var cmd = cnn.CreateCommand();
+                cmd.CommandText = sql;
+                cnn.Open();
+                var reader = cmd.ExecuteReader();
+                var columns = new List<string>();
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    columns.Add(reader.GetName(i));
+                }
+                mainList.Add(columns);
+                while (reader.Read())
+                {
+                    var fields = new List<string>();
+                    for(int i = 0;i < reader.FieldCount; i++)
+                    {
+                        fields.Add(reader[i].ToString());
+                    }
+                    mainList.Add(fields);
+                }
+            }
+            return mainList;
+        }
     }
 }
