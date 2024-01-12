@@ -34,7 +34,7 @@
             this.BtnTest = new System.Windows.Forms.Button();
             this.BtnExecuteSql = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnExecuteFile = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -100,14 +100,15 @@
             this.button3.Text = "Service";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // BtnExecuteFile
             // 
-            this.button4.Location = new System.Drawing.Point(717, 180);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 50);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Execute File";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BtnExecuteFile.Location = new System.Drawing.Point(717, 180);
+            this.BtnExecuteFile.Name = "BtnExecuteFile";
+            this.BtnExecuteFile.Size = new System.Drawing.Size(128, 50);
+            this.BtnExecuteFile.TabIndex = 6;
+            this.BtnExecuteFile.Text = "Execute File";
+            this.BtnExecuteFile.UseVisualStyleBackColor = true;
+            this.BtnExecuteFile.Click += new System.EventHandler(this.BtnExecuteFile_Click);
             // 
             // label1
             // 
@@ -144,7 +145,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BtnExecuteFile);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.BtnExecuteSql);
             this.Controls.Add(this.BtnTest);
@@ -169,7 +170,7 @@
         private System.Windows.Forms.Button BtnTest;
         private System.Windows.Forms.Button BtnExecuteSql;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnExecuteFile;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace SQLAssistant29Dal
 {
@@ -59,6 +60,19 @@ namespace SQLAssistant29Dal
             {
                 var cmd = cnn.CreateCommand();
                 cmd.CommandText = sql;
+                cnn.Open();
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                return rowsAffected;
+            }
+        }
+        public int ExecuteSqlFile(string fileName)
+        {
+            using (var cnn = DbServerFactory.GetDbConnection(Config))
+            {
+                string data = File.ReadAllText(fileName);
+                var cmd = cnn.CreateCommand();
+                cmd.CommandText = data;
                 cnn.Open();
 
                 int rowsAffected = cmd.ExecuteNonQuery();

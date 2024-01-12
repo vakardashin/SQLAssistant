@@ -11,5 +11,6 @@ namespace SQLAssistant29Dal
         object ExecuteSqlScalar(string sql);
         List<List<string>> ExecuteSqlSelect(string sql);
         int ExecuteSqlCommand(string sql);
+        int ExecuteSqlFile(string fileName);
     }
 }

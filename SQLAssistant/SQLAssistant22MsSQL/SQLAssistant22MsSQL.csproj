@@ -44,5 +44,11 @@
     <Compile Include="DbServerFactoryMsSql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SQL\DbTestCreateMsSql.sql" />
+    <Content Include="SQL\DbTestMsSql.sql" />
+    <Content Include="SQL\PiecesMsSql.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

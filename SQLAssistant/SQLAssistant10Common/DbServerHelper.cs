@@ -21,8 +21,8 @@ namespace SQLAssistant10Common
             {
                 ServerName = "MS SQL - LocalDB - dbtest",
                 ServerType = DbServerType.MsSql,
-                ConnectionString = "Server=(localdb)\\MSSQLLocalDB;Integrated Security=true"
-        });
+                ConnectionString = "Server=(localdb)\\MSSQLLocalDB;Trusted_Connection=true" //Integrated Security=true
+            });
             lst.Add(new DbServerConfig()
             {
                 ServerName = "SQLite - dbtest",

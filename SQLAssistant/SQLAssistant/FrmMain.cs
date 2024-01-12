@@ -73,5 +73,27 @@ namespace SQLAssistant
                 TxtResult.Text = ex.Message;
             }
         }
+
+        private void BtnExecuteFile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog theDialog = new OpenFileDialog();
+            theDialog.Title = "Open SQL File";
+            theDialog.Filter = "SQL files|*.sql|All files|*.*";
+            if (theDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    var config = Servers[CboDbServers.SelectedIndex];
+                    var processor = new DbProcessor(config);
+                    string fileName = theDialog.FileName;
+                    int i = processor.ExecuteSqlFile(fileName);
+                    TxtResult.Text = "Records processed: " + i.ToString();
+                }
+                catch (Exception ex)
+                {
+                    TxtResult.Text = ex.Message;
+                }
+            }
+        }
     }
 }
