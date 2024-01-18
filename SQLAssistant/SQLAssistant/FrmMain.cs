@@ -58,8 +58,9 @@ namespace SQLAssistant
                 if (SQLAssistantHelper.DoSelect(sql))
                 {
                     var lst = processor.ExecuteSqlSelect(sql);
-                    var output = SQLAssistantHelper.FormatResultsSimple(lst);
+                    var output = SQLAssistantHelper.FormatResults(lst);
                     TxtResult.Text = output;
+                    // SELECT * FROM employee
                 }
                 else
                 {
