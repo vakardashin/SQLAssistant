@@ -4,3 +4,6 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.csproj.CoreCompileInputs.cache
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.dll
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.pdb
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\bin\Debug\Newtonsoft.Json.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\bin\Debug\Newtonsoft.Json.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant10Common\obj\Debug\SQLAssistant10Common.csproj.CopyComplete

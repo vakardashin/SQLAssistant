@@ -40,3 +40,5 @@ C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant22MsSQL.
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant23SqLite.pdb
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\SQLAssistant23SqLite.dll.config
 C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\System.Data.SQLite.xml
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\Newtonsoft.Json.dll
+C:\Work\C#\SQLAssistant\SQLAssistant\SQLAssistant\bin\Debug\Newtonsoft.Json.xml

@@ -33,7 +33,7 @@
             this.TxtResult = new System.Windows.Forms.TextBox();
             this.BtnTest = new System.Windows.Forms.Button();
             this.BtnExecuteSql = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnService = new System.Windows.Forms.Button();
             this.BtnExecuteFile = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -91,14 +91,16 @@
             this.BtnExecuteSql.UseVisualStyleBackColor = true;
             this.BtnExecuteSql.Click += new System.EventHandler(this.BtnExecuteSql_Click);
             // 
-            // button3
+            // BtnService
             // 
-            this.button3.Location = new System.Drawing.Point(717, 124);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(128, 50);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Service";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnService.Location = new System.Drawing.Point(717, 124);
+            this.BtnService.Name = "BtnService";
+            this.BtnService.Size = new System.Drawing.Size(128, 50);
+            this.BtnService.TabIndex = 5;
+            this.BtnService.Text = "Service";
+            this.BtnService.UseVisualStyleBackColor = true;
+            this.BtnService.Visible = false;
+            this.BtnService.Click += new System.EventHandler(this.BtnService_Click);
             // 
             // BtnExecuteFile
             // 
@@ -146,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnExecuteFile);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BtnService);
             this.Controls.Add(this.BtnExecuteSql);
             this.Controls.Add(this.BtnTest);
             this.Controls.Add(this.TxtResult);
@@ -169,7 +171,7 @@
         private System.Windows.Forms.TextBox TxtResult;
         private System.Windows.Forms.Button BtnTest;
         private System.Windows.Forms.Button BtnExecuteSql;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnService;
         private System.Windows.Forms.Button BtnExecuteFile;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

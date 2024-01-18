@@ -23,7 +23,8 @@ namespace SQLAssistant
         }
         private void InitMe()
         {
-            Servers = DbServerHelper.GetServerList();
+            // Servers = DbServerHelper.GetServerList();
+            Servers = ConfigHelper.ReadFromConfigFile();
             foreach (DbServerConfig server in Servers)
             {
                 CboDbServers.Items.Add(server.ServerName);
@@ -95,6 +96,13 @@ namespace SQLAssistant
                     TxtResult.Text = ex.Message;
                 }
             }
+        }
+
+        private void BtnService_Click(object sender, EventArgs e)
+        {
+            var configs = Servers;
+            ConfigHelper.WriteToConfigFile(configs);
+            MessageBox.Show("OK");
         }
     }
 }

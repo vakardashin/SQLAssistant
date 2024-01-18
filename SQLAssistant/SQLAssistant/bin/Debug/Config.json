@@ -1,0 +1,17 @@
+[
+  {
+    "ServerName": "MySQL - localhost - arnion",
+    "ServerType": 0,
+    "ConnectionString": "Server=localhost;User ID = root;Password=root;Database=arnion;AllowZeroDateTime=True"
+  },
+  {
+    "ServerName": "MS SQL - LocalDB - dbtest",
+    "ServerType": 1,
+    "ConnectionString": "Server=(localdb)\\MSSQLLocalDB;Trusted_Connection=true"
+  },
+  {
+    "ServerName": "SQLite - dbtest",
+    "ServerType": 2,
+    "ConnectionString": "Data Source = \"C:\\Work\\C#\\SQLAssistant\\dbtest.db\";Version=3;"
+  }
+]
